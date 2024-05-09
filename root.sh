@@ -2,7 +2,7 @@ clear
 echo "INI AUTO SCRIPT ROOT PUNYA RAFI"
 sudo cd /etc/ssh
 sudo rm sshd_config
-sudo wget https://raw.githubusercontent.com/raffipedia/auto-root/main/root.sh
+sudo wget https://raw.githubusercontent.com/raffipedia/auto-root/main/sshd_config
 clear
 echo "MASUKAN PASSWORD BARU"
 sudo passwd
