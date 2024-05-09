@@ -11,5 +11,6 @@ sudo service sshd restart
 echo "SUKSESS INSTALL AUTO ROOT, TINGGAL LOGIN PAKE USERNAME : root DAN PASSWORD YANG DI BUAT TADI"
 echo ""
 echo ""
+rm $0
 read -y "ENTER UNTUK REBOOT"
 reboot
