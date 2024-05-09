@@ -14,4 +14,4 @@ echo ""
 rm $0
 echo "KETIK ENTER UNTUK REBOOT"
 read y
-reboot
+sudo reboot
