@@ -12,5 +12,6 @@ echo "SUKSESS INSTALL AUTO ROOT, TINGGAL LOGIN PAKE USERNAME : root DAN PASSWORD
 echo ""
 echo ""
 rm $0
-read -y "ENTER UNTUK REBOOT"
+echo "KETIK ENTER UNTUK REBOOT"
+read y
 reboot
